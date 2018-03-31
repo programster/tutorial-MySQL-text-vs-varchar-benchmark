@@ -71,7 +71,7 @@ function createLogTables()
     $varcharQueries[] = 
         "CREATE TABLE `logs_varchar` (
             `id` int unsigned NOT NULL AUTO_INCREMENT,
-            `message` varchar(6000) NOT NULL,
+            `message` varchar(21000) NOT NULL,
             `creation_time` int UNSIGNED NOT NULL,
             PRIMARY KEY (`id`)
         ) ENGINE=InnoDB DEFAULT CHARSET=utf8;";
