@@ -1,0 +1,6 @@
+{
+    "require": {
+        "irap/core-libs": "^1.1",
+        "irap/profiling": "^1.0"
+    }
+}

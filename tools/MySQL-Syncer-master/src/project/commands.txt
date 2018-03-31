@@ -1,0 +1,1 @@
+/usr/bin/php /home/stuart/Seafile/Desktop/Desktop/sync-textfields-benchmarking/tools/MySQL-Syncer-master/src/project/sync_table.php logs_textfield

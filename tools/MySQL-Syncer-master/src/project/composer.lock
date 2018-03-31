@@ -1,0 +1,143 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "2eb17ac0278dad6888a3e7981d3f42a0",
+    "packages": [
+        {
+            "name": "irap/autoloader",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/iRAP-software/package-autoloader.git",
+                "reference": "58d046d6d544991ca9bbb3ded746deb91c1b45cf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/iRAP-software/package-autoloader/zipball/58d046d6d544991ca9bbb3ded746deb91c1b45cf",
+                "reference": "58d046d6d544991ca9bbb3ded746deb91c1b45cf",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "iRAP\\Autoloader\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stuart Page",
+                    "email": "stuart.page@irap.org"
+                }
+            ],
+            "description": "An package to make it easy to autoload code.",
+            "homepage": "https://github.com/iRAP-software/package-autoloader",
+            "keywords": [
+                "autoloader"
+            ],
+            "time": "2017-05-25T13:18:47+00:00"
+        },
+        {
+            "name": "irap/core-libs",
+            "version": "1.1.35",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/iRAP-software/package-core-libs.git",
+                "reference": "70969fc3724e2d79030bfe591396508462122116"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/iRAP-software/package-core-libs/zipball/70969fc3724e2d79030bfe591396508462122116",
+                "reference": "70969fc3724e2d79030bfe591396508462122116",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "iRAP\\CoreLibs\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stuart Page",
+                    "email": "stuart.page@irap-dev.org",
+                    "homepage": "http://irap.org/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Core libraries for PHP 7.0+",
+            "homepage": "http://www.irap.org",
+            "keywords": [
+                "core",
+                "library"
+            ],
+            "time": "2018-03-27T13:06:02+00:00"
+        },
+        {
+            "name": "irap/multi-query",
+            "version": "1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/iRAP-software/package-multi-query.git",
+                "reference": "007dc726bd59cf623c90fb66653adb86dae62ebd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/iRAP-software/package-multi-query/zipball/007dc726bd59cf623c90fb66653adb86dae62ebd",
+                "reference": "007dc726bd59cf623c90fb66653adb86dae62ebd",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "iRAP\\MultiQuery\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "none"
+            ],
+            "authors": [
+                {
+                    "name": "Stuart Page",
+                    "email": "stuart.page@irap.org",
+                    "homepage": "http://irap.org/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Wrapper object around mysqli to combine queries into one.",
+            "homepage": "http://www.irap.org/",
+            "keywords": [
+                "mysql"
+            ],
+            "time": "2017-06-21T11:35:19+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

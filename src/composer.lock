@@ -1,0 +1,103 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "6e9bf1ae6d36c72a0f115bdb6a37c4d5",
+    "packages": [
+        {
+            "name": "irap/core-libs",
+            "version": "1.1.35",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/iRAP-software/package-core-libs.git",
+                "reference": "70969fc3724e2d79030bfe591396508462122116"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/iRAP-software/package-core-libs/zipball/70969fc3724e2d79030bfe591396508462122116",
+                "reference": "70969fc3724e2d79030bfe591396508462122116",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "iRAP\\CoreLibs\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stuart Page",
+                    "email": "stuart.page@irap-dev.org",
+                    "homepage": "http://irap.org/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Core libraries for PHP 7.0+",
+            "homepage": "http://www.irap.org",
+            "keywords": [
+                "core",
+                "library"
+            ],
+            "time": "2018-03-27T13:06:02+00:00"
+        },
+        {
+            "name": "irap/profiling",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/iRAP-software/package-profiling.git",
+                "reference": "af069afc37c5d21a273373ad0487863f26556556"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/iRAP-software/package-profiling/zipball/af069afc37c5d21a273373ad0487863f26556556",
+                "reference": "af069afc37c5d21a273373ad0487863f26556556",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "iRAP\\Profiling\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Stuart Page",
+                    "email": "support@irap.org",
+                    "homepage": "http://www.irap.org/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Profiling library for PHP 5.6+",
+            "homepage": "http://www.irap.org",
+            "keywords": [
+                "profiling"
+            ],
+            "time": "2017-07-21T21:52:20+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
